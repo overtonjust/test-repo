@@ -13,7 +13,7 @@ function App() {
         <Route path='/about' ></Route>
         <div>
           <a href="https://vitejs.dev" target="_blank">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
+            <h4>Really cool header</h4>
           </a>
           <a href="https://react.dev" target="_blank">
             <img src={reactLogo} className="logo react" alt="React logo" />
