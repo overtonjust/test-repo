@@ -9,7 +9,8 @@ function App() {
 
   return (
     <>
-      <Route path='/' >
+      <Route path='/home' >
+        <Route path='/about' ></Route>
         <div>
           <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
